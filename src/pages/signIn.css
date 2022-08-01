@@ -1,0 +1,59 @@
+.signIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.signIn-wrapper {
+    width: 360px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+}
+
+.signIn-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.signIn-top h1 {
+    flex: 1
+}
+.signIn-img {
+    flex: 1;
+}
+.signIn-img img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.signIn-bottom form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.signIn-bottom form input {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.signIn-bottom form button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #ff0000;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.signIn-bottom strong {
+    margin-left: 10px;
+    text-decoration: underline;
+    color: #ff0000;
+}

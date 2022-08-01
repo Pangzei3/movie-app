@@ -1,0 +1,37 @@
+
+
+.watchlistItem {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin: 20px 30px;
+    border: 2px solid yellow;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.watchlistItem-left img{
+    height: 100%
+}
+
+.watchlistItem-right {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+}
+
+.watchlistItem-right span.overview{
+    height: 155px;
+    overflow-y: auto;
+}
+
+.watchlistItem-right button {
+    margin: 5px 0;
+    padding: 2px 6px;
+    background-color: rgb(127, 43, 43);
+    border: 2px solid yellow;
+    border-radius: 6px;
+    cursor: pointer;
+}
