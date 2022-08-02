@@ -2,10 +2,10 @@
 
 # Overview
 User can use this app to browse popular movies with details, search for movie and add movie to watchlist
-Movie data from themoviedb api
+Movie data from themoviedb api <br>
 To practise React, React hooks, React context, react routes...
 
-# Live link - please click the logo to view homepage
+# Live link - please click navbar logo to view homepage
 https://Pangzei3.github.io/movie-app
 
 ![1-landingPage](https://user-images.githubusercontent.com/64483501/182248341-afd30955-eb41-4cf8-99e2-35a5c05e65a6.png)
